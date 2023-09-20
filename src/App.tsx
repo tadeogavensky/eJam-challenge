@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Main />
       <Steps />
-      <div className="lg:mx-16 mx-3 ">
+      <div className="lg:mx-10 mx-3 ">
         <Product />
       </div>
       <Footer />

@@ -183,7 +183,7 @@ export const Product = () => {
           </div>
         </button>
         <div className="flex flex-wrap items-center justify-center my-3 py-2 px-4 text-[#4D5254] border-[1px] rounded-[10px] border-[#CFCFCF]">
-          <div className="gap-3 flex items-center text-xs border-b-2 md:border-none  border-[#CFCFCF] mb-3 pb-3 md:mb-0 md:pb-0">
+          <div className="gap-3 flex items-center justify-center text-xs border-b-2 md:border-none  border-[#CFCFCF] mb-3 pb-3 md:mb-0 md:pb-0">
             <p className="capitalize whitespace-nowrap">Free shipping</p>
             <img src={line} />
             <div className="flex items-center gap-4">
