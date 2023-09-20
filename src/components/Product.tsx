@@ -25,7 +25,7 @@ import percentage from "../assets/percentage.svg";
 export const Product = () => {
   return (
     <div className="lg:bg-[#FAFAFA] rounded-[10px] flex flex-col lg:flex-row  my-8 font-manrope gap-10 lg:p-8">
-      <div className="lg:flex flex-col hidden justify-between">
+      <div className="lg:flex flex-col hidden justify-around">
         <div className=" flex justify-center">
           <img className="" src={bigProduct} alt="" />
         </div>
