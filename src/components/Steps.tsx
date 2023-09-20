@@ -1,4 +1,3 @@
-import React from "react";
 import greenCheck from "../assets/green-check.svg";
 
 export const Steps = () => {

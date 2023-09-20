@@ -10,11 +10,9 @@ function App() {
     <>
       <Strip />
       <Navbar />
-      <div className="mx-10">
-        <Main />
-        <Steps />
-      </div>
-      <div className="mx-3">
+      <Main />
+      <Steps />
+      <div className="lg:mx-16 mx-3 ">
         <Product />
       </div>
       <Footer />

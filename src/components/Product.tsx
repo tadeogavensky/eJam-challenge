@@ -25,12 +25,12 @@ import percentage from "../assets/percentage.svg";
 export const Product = () => {
   return (
     <div className="lg:bg-[#FAFAFA] rounded-[10px] flex flex-col lg:flex-row  my-8 font-manrope gap-10 lg:p-8">
-      <div className="lg:flex flex-col hidden">
+      <div className="lg:flex flex-col hidden justify-between">
         <div className=" flex justify-center">
           <img className="" src={bigProduct} alt="" />
         </div>
-        <div className="bg-white rounded-[10px] flex flex-col p-6 gap-5 mt-8">
-          <div className="flex justify-start items-center gap-[13px]">
+        <div className="bg-white rounded-[10px] flex flex-col p-6 gap-5 mt-5">
+          <div className="flex justify-start items-center gap-[13px] ">
             <img src={reviewer} className="rounded-full w-14 h-14" alt="" />
             <div className="flex flex-col gap-1">
               <div>
@@ -64,17 +64,13 @@ export const Product = () => {
           <img className="" src={bigProduct} alt="" />
         </div>
         <div className="flex flex-row gap-4 lg:gap-6 lg:my-8 ">
-          <div className=" hidden lg:block">
-            <img
-              src={smallProduct}
-              alt=""
-              className="object-contain w-[175px]"
-            />
+          <div className=" hidden lg:block ">
+            <img src={smallProduct} alt="" className="object-contain" />
           </div>
           <div className="w-[25%] lg:hidden">
             <img src={smallProduct} alt="" className="object-cover" />
           </div>
-          <div className="flex flex-col justify-center gap-3 lg:gap-[15px]">
+          <div className="flex flex-col justify-center gap-3 ">
             <div className="flex flex-row justify-between items-center self-stretch gap-8 ">
               <p className="text-[14px] lg:text-xl whitespace-nowrap">
                 Clarifion Air Ionizer
@@ -86,12 +82,12 @@ export const Product = () => {
                 $84
               </p>
             </div>
-            <div className="flex items-center justify-start">
-              <img src={star} className="w-5" alt="" />
-              <img src={star} className="w-5" alt="" />
-              <img src={star} className="w-5" alt="" />
-              <img src={star} className="w-5" alt="" />
-              <img src={star} className="w-5" alt="" />
+            <div className="flex items-center justify-start gap-2 lg:gap-0">
+              <img src={star} className="w-4 lg:w-5" alt="" />
+              <img src={star} className="w-4 lg:w-5" alt="" />
+              <img src={star} className="w-4 lg:w-5" alt="" />
+              <img src={star} className="w-4 lg:w-5" alt="" />
+              <img src={star} className="w-4 lg:w-5" alt="" />
             </div>
 
             <div className="flex justify-start items-center gap-4">
@@ -130,7 +126,7 @@ export const Product = () => {
         <div className="mt-6 lg:mt-0 flex lg:justify-start  items-center ml-2 lg:ml-0">
           <ul>
             <li className="gap-3 flex items-center ">
-              <div className="w-3 lg:w-8">
+              <div className="w-3 lg:w-5">
                 <img src={tickCircle} alt="" />
               </div>
               <p className="withespace-nowrap text-xs lg:text-base">
@@ -140,7 +136,7 @@ export const Product = () => {
             </li>
             <li className="gap-3 flex items-center my-4">
               <div>
-                <div className="w-3 lg:w-8">
+                <div className="w-3 lg:w-5">
                   <img src={tickCircle} alt="" />
                 </div>
               </div>
@@ -149,7 +145,7 @@ export const Product = () => {
               </p>
             </li>
             <li className="gap-3 flex items-center">
-              <div className="w-3 lg:w-8">
+              <div className="w-3 lg:w-5">
                 <img src={tickCircle} alt="" />
               </div>
               <p className="withespace-nowrap text-xs lg:text-base">
